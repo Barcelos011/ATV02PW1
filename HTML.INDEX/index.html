@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!--metadados para SEO e compatibilidade-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Recusos HTML5">
+    <meta name="author" content="João Barcelos-Davi Silva">
+    <title>Página sobre recursos em HTML5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Cabeçalho da Página-->
+    <header>
+        <h1>Explorando recusos em HTML5</h1>
+        <!--Navegação com links âncora para diferentes seções-->
+        <nav>
+        <a href="#paragrafo">Parágrafo</a>
+        <a href="#listas">listas</a>
+        <a href="#tabela">tabela</a>
+        <a href="#formulario">Formulário</a>
+        <a href="#midia">Mídia</a>
+        </nav>
+    </header>
+
+    <!--Primeira seção : Demonstrar parágrafos e formatação de texto-->
+    <section id="paragrafo">
+        <h2>Parágrafos e formatação de textos</h2>
+        <!--um paragrafo simples-->
+        <p>Este é um parágrafo básico. O elemento <code>&lt;p&gt;</code> É usado para criar parágrafos em HTML</p>
+
+        <!--Texto em Negrito e Itálico-->
+        <p><strong>Texto em Negrito</strong> Pode ser criado com o elemento <code>&lt;storngb&gt;</code> ou
+            <code>&lt;b&gt;</code>.</p>
+        <p><em>Texto em Itálico</em> pode ser criado o elemento <code>&lt;em&gt;</code> ou <code>&lt;i&gt;</code>.</p>
+
+        <!--Linha horizontal-->
+        <hr>
+        <p>Esta Linha horizontal foi criada com o elemento <code>&lt;hr&gt;</code> Que é usado para separar seções de
+            conteúdo.</p>
+    </section>
+
+    <!--Segunda Seção ; Listas Ordenadas e Listas não ordenadas-->
+    <section id="listas">
+        <h2>Listas</h2>
+        <!--Listas Não ordenada-->
+        <h3>Lista não ordenada</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        ' <p>A lista acima é uma <strong>LIsta não ordenada</strong>, criada com <code>&lt;ul&gt;</code> ou
+            <code>&lt;li&gt;</code>.</p>'
+
+        <!--Lista ordenada-->
+        <h3>Lista Ordenada</h3>
+        <ol>
+            <li>Primeiro Item</li>
+            <li>Segundo Item</li>
+            <li>Terceiro Item</li>
+        </ol>
+        <p>A lista acima é uma <strong>LIsta ordenada</strong>, criada com <code>&lt;ol&gt;</code> ou
+            <code>&lt;li&gt;</code>.</p>
+    </section>
+
+    <!--Terceira Seção : Tabela Básica-->
+    <section id="Tabela">
+        <h2>Tabela</h2>
+        <table border="1">
+            <caption> Exemplo de Tabela</caption>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idede</th>
+                    <th>Profissão</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>João</td>
+                    <td>16</td>
+                    <td>ti</td>
+                </tr>
+                <tr>
+                    <td>Davi</td>
+                    <td>22</td>
+                    <td>Ti</td>
+                </tr>
+                <tr>
+                    <td>Edson</td>
+                    <td>32</td>
+                    <td>Ti</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Esta tabela é criada com o elemento <code>&lt;table&gt;</code>. Os cabeçalhos são definidos
+            com<code>&lt;td&gt;</code> e as células com o <code>&lt;td&gt;</code>.</p>
+    </section>
+
+    <!--Quarta seção : Formulário-->
+    <section id="formulario">
+        <h2>Formulário</h2>
+        <form action="#" method="post">
+            <!--Campo de Texto-->
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome"> <br><br>
+
+            <!--Campo de email-->
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <!--Caixa de seleção (checkbox)-->
+            <label for="aceito">Aceito os termos:</label>
+            <input type="checkbox" id="aceito" name="aceito"><br><br>
+
+            <!--Botão de Envio-->
+            <input type="submit" value="Enviar"> 
+        </form>
+        <p>Este formulario contém tipos de entradas de dados , como <code>&lt;input&gt;</code> 
+            <code>&lt;label&gt;</code>.</p>
+    </section>
+
+    <!--Quinta seção : Mídias ( Imagem e vídeo)-->
+    <section id="Mídias">
+        <h2>Mídia</h2>
+        <!--Imagem-->
+        <h3>Imagem</h3>
+        <img src="https://w7.pngwing.com/pngs/932/162/png-transparent-smiley-happiness-happy-face-face-smiley-emoticon-thumbnail.png"
+            alt="Exemplo de Imagem">
+        <p>Esta Imagem é inserida com o elemento <code>&lt;img&gt;</code> que requer o atributo <code>src</code> para o
+            caminho da imagem e <code>alt</code> para a descrição alternativa.</p>
+
+        <!--Vídeo-->
+        <h3>Vídeo</h3>
+        <iframe width="864" height="486" src="https://www.youtube.com/embed/jc2XiAgabdg" title="quando o Fagner perde o controle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <video controls width="250">
+            <source src="https://media.istockphoto.com/id/860229078/pt/v%C3%ADdeo/loopable-smiley-faces.mp4?s=mp4-640x640-is&k=20&c=rLb7bfz7mJdNiHffzxo5CjNPuZGKTTvHMeIf1qHeKX0=" type="video/mp4">
+            Seu navegador não suporta o elemento do video . 
+        </video>
+        <p> O vídeo acima é incorporado usando o elemento <code>&lt;video&gt;</code> e a fonte de vídeo é definida com  <code>&lt;source&gt;</code>.</p>
+    </section>
+
+    <!--Rodapé da página-->
+    <footer>
+        <p>&copy;2024 - Desenvolvido por João Barcelos - Davi Silva</p>
+    </footer>
+</body>
+</html>
